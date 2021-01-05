@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.angoti.projetointegrador4_2020.activities.MainActivity">
+    <item
+        android:id="@+id/action_login"
+        android:icon="@drawable/ic_action_login"
+        android:title="Login"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_novo"
+        android:title="Novo" />
+    <item
+        android:id="@+id/action_todos"
+        android:icon="@drawable/ic_action_todos"
+        android:title="Todos"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_alterar"
+        android:title="Alterar" />
+</menu>
